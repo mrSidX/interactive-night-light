@@ -115,21 +115,15 @@ Adafruit_NeoPixel strip = Adafruit_NeoPixel(32, PIN, NEO_GRB + NEO_KHZ800);
 
 
 #define MDNS_NAME  "lightproj1"
-#define AIO_SERVER      "raspkerapi.local:18800"
+#define AIO_SERVER      "AIO.SERVER.ADDRESS.URL"
 #define AIO_SERVERPORT  1883                   // use 8883 for SSL
 #define AIO_USERNAME    "candlelightmqtt"
 #define AIO_KEY         "romanticmqtt"
 
 /* Set these to your desired credentials. */
-const char *ssid = "Tatooine";
-const char *password = "vaderhater1a";
-//const char *ssid = "sidenet";
-//const char *password = "entersid";
+const char *ssid = "SomeWifiHotSpot";
+const char *password = "WIFIPASSWORD";
 
-
-
-//const char *ssid = "lightproj";
-//const char *password = "thereisnospoon";
 char *state = "rainbow";
 const char *stat = "";
 int stroberate = 1000;
